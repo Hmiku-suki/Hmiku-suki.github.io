@@ -112,4 +112,4 @@ theme: arknights
 deploy:
   type: 'git'
   branch: 'master'
-  repo: 'https://github.com/Hmiku-suki/Hmiku-suki.github.io.git'
+  repo: 'git@github.com:Hmiku-suki/Hmiku-suki.github.io.git'
