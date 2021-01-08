@@ -1,7 +1,7 @@
 ---
 title: 'linux换源'
 date: 2021-01-08 12:39:39
-tags：linux
+tags: linux
 category: System
 ---
 此篇记录了linux换源那点事儿
