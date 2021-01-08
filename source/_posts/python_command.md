@@ -6,6 +6,8 @@ category: Code
 ---
 
 #### 随手记
+<!-- more -->
 ---
 ##### 环境搭建  
 `pip install -r 'requirements.txt'`  
+

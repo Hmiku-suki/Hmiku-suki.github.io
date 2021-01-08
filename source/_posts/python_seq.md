@@ -14,7 +14,7 @@ category: Code
 
 * 列表: 值的有序序列，可变
 `['I did it', 4, 'all']`  
-
+<!-- more -->
 ##### 序列str, tuple, range, list通用操作
 * `seq[i]`
 返回序列中的第i个元素。

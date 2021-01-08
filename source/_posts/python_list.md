@@ -11,7 +11,7 @@ category: Code
 * `L.count(e)`
 返回e在L中出现的次数。
 * `L.insert(i, e)`
-将对象e插入L中索引值为i的位置。
+将对象e插入L中索引值为i的位置。<!-- more -->
 * `L.extend(L1)`
 将L1中的项目追加到L末尾。
 * `L.remove(e)`

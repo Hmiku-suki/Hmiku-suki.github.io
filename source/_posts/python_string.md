@@ -11,7 +11,7 @@ category: Code
 * `s.find(s1)`
 返回子字符串s1在s中第一次出现的索引值，如果s1不在s中，则返回-1。
 * `s.rfind(s1)`
-功能与find相同，只是从s的末尾开始反向搜索。
+功能与find相同，只是从s的末尾开始反向搜索。<!-- more -->
 * `s.index(s1)`
 功能与find相同，只是如果s1不在s中，则抛出一个异常。
 * `s.rindex(s1)`
