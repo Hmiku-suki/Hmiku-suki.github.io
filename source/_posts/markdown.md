@@ -1,8 +1,8 @@
 ---
 title: Markdown 教程
 date: 2020-04-15 00:58:59
-tags: Markdown
-category: 教程
+tags: Test
+category: Example
 mathjax: true
 ---
 
@@ -354,9 +354,3 @@ $$
 \end{eqnarray\*}
 $$
 ```
-
-
-[^阿米娅]: 博士，您还有很多事情需要处理。现在还不能休息哦。
-
-[1]: http://www.google.com/
-[mysite]: https://github.com/Yue-plus

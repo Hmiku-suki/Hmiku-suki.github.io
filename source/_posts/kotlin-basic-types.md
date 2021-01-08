@@ -1,7 +1,8 @@
 ---
 title: kotlin 基本类型
 date: 2020-07-14 08:34:40
-tags:
+tags: Test
+category: Example
 ---
 
 # 基本类型
