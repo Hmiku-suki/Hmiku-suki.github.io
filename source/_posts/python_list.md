@@ -4,7 +4,8 @@ date: 2021-01-08 12:39:39
 tags: python
 category: Code
 ---
-
+此篇记录了python列表的常用操作
+<!-- more -->
 ##### 列表常用操作
 * `L.append(e)`
 将对象e追加到L的末尾。

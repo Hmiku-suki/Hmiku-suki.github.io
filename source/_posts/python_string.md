@@ -5,13 +5,15 @@ tags: python
 category: Code
 ---
 
+此篇记录了python字符串的常用操作
+<!-- more -->
 ##### 字符串常用操作
 * `s.count(s1)`
 计算字符串s1在s中出现的次数。
 * `s.find(s1)`
 返回子字符串s1在s中第一次出现的索引值，如果s1不在s中，则返回-1。
 * `s.rfind(s1)`
-功能与find相同，只是从s的末尾开始反向搜索。<!-- more -->
+功能与find相同，只是从s的末尾开始反向搜索。
 * `s.index(s1)`
 功能与find相同，只是如果s1不在s中，则抛出一个异常。
 * `s.rindex(s1)`
