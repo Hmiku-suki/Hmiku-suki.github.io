@@ -167,22 +167,22 @@ category: Cloud
 
 ### 规划和配置云解决方案
 1. 使用价格计算器规划和估计GCP产品的使用情况
-2. 规划和配置计算资源 
+2. 规划和配置计算资源  
     Considerations include:
     - 为给定的工作负载选择适当的计算选项 (e.g., Compute Engine, Google Kubernetes Engine, App Engine, Cloud Run, Cloud Functions)
     - 适当使用preemptible VMs和自定义机器类型
-3. 规划和配置数据存储选项 
+3. 规划和配置数据存储选项  
     Considerations include:
     - 产品选择 (e.g., Cloud SQL, BigQuery, Cloud Spanner, Cloud Bigtable)
     - 选择存储选项 (e.g., Standard, Nearline, Coldline, Archive)
-4. 规划和配置网络资源 
+4. 规划和配置网络资源  
     Tasks include:
     - 区分负载均衡选项
     - 识别网络中的资源位置以提高可用性
     - 配置云DNS  
 
 ### 部署和实施云解决方案  
-1. 部署和实施Compute Engine资源 
+1. 部署和实施Compute Engine资源  
     Tasks include:
     - 使用Cloud Console和Cloud SDK(gcloud)启动计算实例 (e.g., assign disks, availability policy, SSH keys)
     - 使用实例模板创建自动缩放的托管实例组
@@ -190,37 +190,37 @@ category: Cloud
     - 配置VM以进行Stackdriver监视和记录
     - 评估计算配额并请求增加
     - 安装Stackdriver Agent进行监视和日志记录
-2. 部署和实施Google Kubernetes Engine资源 
+2. 部署和实施Google Kubernetes Engine资源  
     Tasks include:
     - 部署Google Kubernetes Engine集群
     - 使用pods将容器应用程序部署到Google Kubernetes Engine
     - 配置Google Kubernetes Engine应用程序监视和日志记录
-3. 部署和实施App Engine，Cloud Run和Cloud Functions资源 
+3. 部署和实施App Engine，Cloud Run和Cloud Functions资源  
     Tasks include, where applicable:
     - 部署应用程序，更新扩展配置，版本和流量分割
     - 部署接收Google Cloud事件的应用程序 (e.g., Cloud Pub/Sub events, Cloud Storage object change notification events)
-4. 部署和实施数据解决方案 
+4. 部署和实施数据解决方案  
     Tasks include:
     - 使用产品初始化数据系统 (e.g., Cloud SQL, Cloud Datastore, BigQuery, Cloud Spanner, Cloud Pub/Sub, Cloud Bigtable, Cloud Dataproc, Cloud Dataflow, Cloud Storage)
     - Loading data (e.g., command line upload, API transfer, import/export, load data from Cloud Storage, streaming data to Cloud Pub/Sub)
-5. 部署和实施网络资源 
+5. 部署和实施网络资源  
     Tasks include:
     - 使用子网创建VPC (e.g., custom-mode VPC, shared VPC)
     - 使用自定义网络配置启动Compute Engine实例 (e.g., internal-only IP address, Google private access, static external and private IP address, network tags)
     - 为VPC创建入口和出口防火墙规则 (e.g., IP subnets, tags, service accounts)
     - 使用Cloud VPN在Google VPC和外部网络之间创建VPN
     - 使用负载均衡器将应用程序网络流量分配给应用程序 (e.g., Global HTTP(S) load balancer, Global SSL Proxy load balancer, Global TCP Proxy load balancer, regional network load balancer, regional internal load balancer)
-6. 使用云市场部署解决方案 
+6. 使用云市场部署解决方案  
     Tasks include:
     - 浏览Cloud Marketplace目录并查看解决方案详细信息
     - 部署Cloud Marketplace解决方案
-7. 使用Cloud Deployment Manager部署应用程序基础架构 
+7. 使用Cloud Deployment Manager部署应用程序基础架构  
     Tasks include:
     - 开发Deployment Manager模板
     - 启动Deployment Manager模板  
 
 ### 确保云解决方案的成功运行  
-1. 管理Compute Engine资源 
+1. 管理Compute Engine资源  
     Tasks include:
     - 管理单个VM实例 (e.g., start, stop, edit configuration, or delete an instance)
     - SSH/RDP连接到实例
@@ -230,7 +230,7 @@ category: Cloud
     - 使用镜像 (e.g., create an image from a VM or a snapshot, view images, delete an image)
     - 使用实例组 (e.g., set autoscaling parameters, assign instance template, create an instance template, remove instance group)
     - 使用管理接口 (e.g., Cloud Console, Cloud Shell, GCloud SDK)
-2. 管理Google Kubernetes Engine资源 
+2. 管理Google Kubernetes Engine资源  
     Tasks include:
     - 查看当前运行的集群清单 (nodes, pods, services)
     - 浏览容器镜像存储库并查看容器镜像详细信息
@@ -239,12 +239,12 @@ category: Cloud
     - 使用服务 (e.g., add, edit, or remove a service)
     - 使用有状态的应用程序 (e.g. persistent volumes, stateful sets)
     - 使用管理接口 (e.g., Cloud Console, Cloud Shell, Cloud SDK)
-3. 管理App Engine和Cloud Run资源 
+3. 管理App Engine和Cloud Run资源  
     Tasks include:
     - 调整应用程序流量分割参数
     - 设置自动缩放实例的缩放参数
     - 使用管理接口 (e.g., Cloud Console, Cloud Shell, Cloud SDK)
-4. 管理存储和数据库解决方案 
+4. 管理存储和数据库解决方案  
     Tasks include:
     - 在Cloud Storage存储桶之间移动对象
     - 在存储类别之间转换Cloud Storage存储桶
@@ -254,13 +254,13 @@ category: Cloud
     - 备份和还原数据实例 (e.g., Cloud SQL, Cloud Datastore)
     - 在Cloud Dataproc，Cloud Dataflow或BigQuery中查看作业状态
     - 使用管理接口 (e.g., Cloud Console, Cloud Shell, Cloud SDK)
-5. 管理网络资源 
+5. 管理网络资源  
     Tasks include:
     - 将子网添加到现有VPC
     - 扩展子网以拥有更多IP地址
     - 保留静态外部或内部IP地址
     - 使用管理接口 (e.g., Cloud Console, Cloud Shell, Cloud SDK)
-6. 监视和日志记录 
+6. 监视和日志记录  
     Tasks include:
     - 根据资源指标创建Stackdriver警报
     - 创建Stackdriver自定义指标
@@ -272,12 +272,12 @@ category: Cloud
     - 使用管理接口 (e.g., Cloud Console, Cloud Shell, Cloud SDK)  
 
 ### 配置访问和安全性  
-1. 管理身份和访问管理 (IAM). 
+1. 管理身份和访问管理(IAM)  
     Tasks include:
     - 查看IAM角色分配
     - 将IAM角色分配给帐户或Google组
     - 定义自定义IAM角色
-2. 管理服务帐户 
+2. 管理服务帐户  
     Tasks include:
     - 以有限的权限管理服务帐户
     - 为VM实例分配服务帐号
