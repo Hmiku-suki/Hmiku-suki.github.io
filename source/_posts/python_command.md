@@ -8,6 +8,6 @@ category: Code
 <!-- more -->
 #### 随手记
 ---
-###### 环境搭建  
+##### 环境搭建  
 `pip install -r 'requirements.txt'`  
 

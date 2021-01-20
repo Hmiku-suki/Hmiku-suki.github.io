@@ -47,3 +47,15 @@ export LD_LIBRARY_PATH=/home/miku/anaconda3/lib:$LD_LIBRARY_PATH
 git config --global user.email "mgq499243711@gmail.com"
 git config --global user.name "Hmiku-suki"
 ```
+
+#### Xserver  
+
+在WSL中配置环境变量DISPLAY，在~/.bashrc中加入相关配置。  
+WSL1为：  
+```
+export DISPLAY=localhost:0
+```
+WSL2为：  
+```
+export DISPLAY=`cat /etc/resolv.conf | grep nameserver | awk '{print $2}'`:0`
+```
