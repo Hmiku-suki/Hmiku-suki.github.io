@@ -41,3 +41,9 @@ END
 export PATH=/home/miku/anaconda3/bin:$PATH
 export LD_LIBRARY_PATH=/home/miku/anaconda3/lib:$LD_LIBRARY_PATH
 ```
+
+#### 配置git
+```
+git config --global user.email "mgq499243711@gmail.com"
+git config --global user.name "Hmiku-suki"
+```
