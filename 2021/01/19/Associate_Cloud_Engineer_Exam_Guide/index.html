@@ -1,0 +1,433 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Associate Cloud Engineer Exam Guide | Hmiku</title><script src="https://cdn.bootcss.com/valine/1.4.4/Valine.min.js"></script><link rel="stylesheet" href="/css/arknights.css"><link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/highlight.js/10.1.2/styles/atom-one-dark-reasonable.min.css"><meta name="generator" content="Hexo 5.0.2"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"] > svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head><body><header><nav><a href="/">Home</a><a href="/about">About</a><a href="/contact">Contact</a><a href="/archives">Archives</a></nav></header><main><article><div id="post-bg"><div id="post-title"><div id="post-info"><span>date:<time datetime="2021-01-19T13:39:39.000Z" id="date"> 2021-01-19</time></span><br><span>updated:<time datetime="2021-02-22T07:03:13.066Z" id="updated"> 2021-02-22</time></span></div><h1>Associate Cloud Engineer Exam Guide</h1><hr></div><div id="post-content"><h2 id="Associate-Cloud-Engineer"><a href="#Associate-Cloud-Engineer" class="headerlink" title="Associate Cloud Engineer"></a>Associate Cloud Engineer</h2><p>先来个链接<br><a target="_blank" rel="noopener" href="https://cloud.google.com/certification/guides/cloud-engineer">https://cloud.google.com/certification/guides/cloud-engineer</a>  </p>
+<h3 id="Setting-up-a-cloud-solution-environment"><a href="#Setting-up-a-cloud-solution-environment" class="headerlink" title="Setting up a cloud solution environment"></a>Setting up a cloud solution environment</h3><ol>
+<li>Setting up cloud projects and accounts.<br> Activities include:<ul>
+<li>Creating projects</li>
+<li>Assigning users to predefined IAM roles within a project</li>
+<li>Managing users in Cloud Identity (manually and automated)</li>
+<li>Enabling APIs within projects</li>
+<li>Provisioning one or more Stackdriver workspaces</li>
+</ul>
+</li>
+<li>Managing billing configuration.<br> Activities include:<ul>
+<li>Creating one or more billing accounts</li>
+<li>Linking projects to a billing account</li>
+<li>Establishing billing budgets and alerts</li>
+<li>Setting up billing exports to estimate daily/monthly charges</li>
+</ul>
+</li>
+<li>Installing and configuring the command line interface (CLI), specifically the Cloud SDK (e.g., setting the default project).  </li>
+</ol>
+<h3 id="Planning-and-configuring-a-cloud-solution"><a href="#Planning-and-configuring-a-cloud-solution" class="headerlink" title="Planning and configuring a cloud solution"></a>Planning and configuring a cloud solution</h3><ol>
+<li>Planning and estimating GCP product use using the Pricing Calculator</li>
+<li>Planning and configuring compute resources.<br> Considerations include:<ul>
+<li>Selecting appropriate compute choices for a given workload (e.g., Compute Engine, Google Kubernetes Engine, App Engine, Cloud Run, Cloud Functions)</li>
+<li>Using preemptible VMs and custom machine types as appropriate</li>
+</ul>
+</li>
+<li>Planning and configuring data storage options.<br> Considerations include:<ul>
+<li>Product choice (e.g., Cloud SQL, BigQuery, Cloud Spanner, Cloud Bigtable)</li>
+<li>Choosing storage options (e.g., Standard, Nearline, Coldline, Archive)</li>
+</ul>
+</li>
+<li>Planning and configuring network resources.<br> Tasks include:<ul>
+<li>Differentiating load balancing options</li>
+<li>Identifying resource locations in a network for availability</li>
+<li>Configuring Cloud DNS  </li>
+</ul>
+</li>
+</ol>
+<h3 id="Deploying-and-implementing-a-cloud-solution"><a href="#Deploying-and-implementing-a-cloud-solution" class="headerlink" title="Deploying and implementing a cloud solution"></a>Deploying and implementing a cloud solution</h3><ol>
+<li>Deploying and implementing Compute Engine resources.<br> Tasks include:<ul>
+<li>Launching a compute instance using Cloud Console and Cloud SDK (gcloud) (e.g., assign disks, availability policy, SSH keys)</li>
+<li>Creating an autoscaled managed instance group using an instance template</li>
+<li>Generating/uploading a custom SSH key for instances</li>
+<li>Configuring a VM for Stackdriver monitoring and logging</li>
+<li>Assessing compute quotas and requesting increases</li>
+<li>Installing the Stackdriver Agent for monitoring and logging</li>
+</ul>
+</li>
+<li>Deploying and implementing Google Kubernetes Engine resources.<br> Tasks include:<ul>
+<li>Deploying a Google Kubernetes Engine cluster</li>
+<li>Deploying a container application to Google Kubernetes Engine using pods</li>
+<li>Configuring Google Kubernetes Engine application monitoring and logging</li>
+</ul>
+</li>
+<li>Deploying and implementing App Engine, Cloud Run, and Cloud Functions resources.<br> Tasks include, where applicable:<ul>
+<li>Deploying an application, updating scaling configuration, versions, and traffic splitting</li>
+<li>Deploying an application that receives Google Cloud events (e.g., Cloud Pub/Sub events, Cloud Storage object change notification events)</li>
+</ul>
+</li>
+<li>Deploying and implementing data solutions.<br> Tasks include:<ul>
+<li>Initializing data systems with products (e.g., Cloud SQL, Cloud Datastore, BigQuery, Cloud Spanner, Cloud Pub/Sub, Cloud Bigtable, Cloud Dataproc, Cloud Dataflow, Cloud Storage)</li>
+<li>Loading data (e.g., command line upload, API transfer, import/export, load data from Cloud Storage, streaming data to Cloud Pub/Sub)</li>
+</ul>
+</li>
+<li>Deploying and implementing networking resources.<br> Tasks include:<ul>
+<li>Creating a VPC with subnets (e.g., custom-mode VPC, shared VPC)</li>
+<li>Launching a Compute Engine instance with custom network configuration (e.g., internal-only IP address, Google private access, static external and private IP address, network tags)</li>
+<li>Creating ingress and egress firewall rules for a VPC (e.g., IP subnets, tags, service accounts)</li>
+<li>Creating a VPN between a Google VPC and an external network using Cloud VPN</li>
+<li>Creating a load balancer to distribute application network traffic to an application (e.g., Global HTTP(S) load balancer, Global SSL Proxy load balancer, Global TCP Proxy load balancer, regional network load balancer, regional internal load balancer)</li>
+</ul>
+</li>
+<li>Deploying a solution using Cloud Marketplace.<br> Tasks include:<ul>
+<li>Browsing Cloud Marketplace catalog and viewing solution details</li>
+<li>Deploying a Cloud Marketplace solution</li>
+</ul>
+</li>
+<li>Deploying application infrastructure using Cloud Deployment Manager.<br> Tasks include:<ul>
+<li>Developing Deployment Manager templates</li>
+<li>Launching a Deployment Manager template  </li>
+</ul>
+</li>
+</ol>
+<h3 id="Ensuring-successful-operation-of-a-cloud-solution"><a href="#Ensuring-successful-operation-of-a-cloud-solution" class="headerlink" title="Ensuring successful operation of a cloud solution"></a>Ensuring successful operation of a cloud solution</h3><ol>
+<li>Managing Compute Engine resources.<br> Tasks include:<ul>
+<li>Managing a single VM instance (e.g., start, stop, edit configuration, or delete an instance)</li>
+<li>SSH/RDP to the instance</li>
+<li>Attaching a GPU to a new instance and installing CUDA libraries</li>
+<li>Viewing current running VM inventory (instance IDs, details)</li>
+<li>Working with snapshots (e.g., create a snapshot from a VM, view snapshots, delete a snapshot)</li>
+<li>Working with images (e.g., create an image from a VM or a snapshot, view images, delete an image)</li>
+<li>Working with instance groups (e.g., set autoscaling parameters, assign instance template, create an instance template, remove instance group)</li>
+<li>Working with management interfaces (e.g., Cloud Console, Cloud Shell, GCloud SDK)</li>
+</ul>
+</li>
+<li>Managing Google Kubernetes Engine resources.<br> Tasks include:<ul>
+<li>Viewing current running cluster inventory (nodes, pods, services)</li>
+<li>Browsing the container image repository and viewing container image details</li>
+<li>Working with node pools (e.g., add, edit, or remove a node pool)</li>
+<li>Working with pods (e.g., add, edit, or remove pods)</li>
+<li>Working with services (e.g., add, edit, or remove a service)</li>
+<li>Working with stateful applications (e.g. persistent volumes, stateful sets)</li>
+<li>Working with management interfaces (e.g., Cloud Console, Cloud Shell, Cloud SDK)</li>
+</ul>
+</li>
+<li>Managing App Engine and Cloud Run resources.<br> Tasks include:<ul>
+<li>Adjusting application traffic splitting parameters</li>
+<li>Setting scaling parameters for autoscaling instances</li>
+<li>Working with management interfaces (e.g., Cloud Console, Cloud Shell, Cloud SDK)</li>
+</ul>
+</li>
+<li>Managing storage and database solutions.<br> Tasks include:<ul>
+<li>Moving objects between Cloud Storage buckets</li>
+<li>Converting Cloud Storage buckets between storage classes</li>
+<li>Setting object life cycle management policies for Cloud Storage buckets</li>
+<li>Executing queries to retrieve data from data instances (e.g., Cloud SQL, BigQuery, Cloud Spanner, Cloud Datastore, Cloud Bigtable)</li>
+<li>Estimating costs of a BigQuery query</li>
+<li>Backing up and restoring data instances (e.g., Cloud SQL, Cloud Datastore)</li>
+<li>Reviewing job status in Cloud Dataproc, Cloud Dataflow, or BigQuery</li>
+<li>Working with management interfaces (e.g., Cloud Console, Cloud Shell, Cloud SDK)</li>
+</ul>
+</li>
+<li>Managing networking resources.<br> Tasks include:<ul>
+<li>Adding a subnet to an existing VPC</li>
+<li>Expanding a subnet to have more IP addresses</li>
+<li>Reserving static external or internal IP addresses</li>
+<li>Working with management interfaces (e.g., Cloud Console, Cloud Shell, Cloud SDK)</li>
+</ul>
+</li>
+<li>Monitoring and logging.<br> Tasks include:<ul>
+<li>Creating Stackdriver alerts based on resource metrics</li>
+<li>Creating Stackdriver custom metrics</li>
+<li>Configuring log sinks to export logs to external systems (e.g., on-premises or BigQuery)</li>
+<li>Viewing and filtering logs in Stackdriver</li>
+<li>Viewing specific log message details in Stackdriver</li>
+<li>Using cloud diagnostics to research an application issue (e.g., viewing Cloud Trace data, using Cloud Debug to view an application point-in-time)</li>
+<li>Viewing Google Cloud Platform status</li>
+<li>Working with management interfaces (e.g., Cloud Console, Cloud Shell, Cloud SDK)  </li>
+</ul>
+</li>
+</ol>
+<h3 id="Configuring-access-and-security"><a href="#Configuring-access-and-security" class="headerlink" title="Configuring access and security"></a>Configuring access and security</h3><ol>
+<li>Managing identity and access management (IAM).<br> Tasks include:<ul>
+<li>Viewing IAM role assignments</li>
+<li>Assigning IAM roles to accounts or Google Groups</li>
+<li>Defining custom IAM roles</li>
+</ul>
+</li>
+<li>Managing service accounts.<br> Tasks include:<ul>
+<li>Managing service accounts with limited privileges</li>
+<li>Assigning a service account to VM instances</li>
+<li>Granting access to a service account in another project</li>
+</ul>
+</li>
+<li>Viewing audit logs for project and managed services.</li>
+</ol>
+<h2 id="中文版见这里"><a href="#中文版见这里" class="headerlink" title="中文版见这里"></a>中文版见这里</h2><h3 id="设置云解决方案环境"><a href="#设置云解决方案环境" class="headerlink" title="设置云解决方案环境"></a>设置云解决方案环境</h3><ol>
+<li>设置云项目和帐户<br> Activities include:<ul>
+<li>创建项目</li>
+<li>将用户分配给项目中的预定义IAM角色</li>
+<li>在Cloud Identity中管理用户(手动和自动)</li>
+<li>在项目中启用API</li>
+<li>设置一个或多个Stackdriver工作区</li>
+</ul>
+</li>
+<li>管理计费配置<br> Activities include:<ul>
+<li>创建一个或多个计费帐户</li>
+<li>将项目链接到计费帐户</li>
+<li>建立帐单预算和警告</li>
+<li>设置结算出口以估算每日/每月费用</li>
+</ul>
+</li>
+<li>安装和配置命令行界面(CLI)，尤其是Cloud SDK(例如，设置默认项目)   </li>
+</ol>
+<h3 id="规划和配置云解决方案"><a href="#规划和配置云解决方案" class="headerlink" title="规划和配置云解决方案"></a>规划和配置云解决方案</h3><ol>
+<li>使用价格计算器规划和估计GCP产品的使用情况</li>
+<li>规划和配置计算资源<br> Considerations include:<ul>
+<li>为给定的工作负载选择适当的计算选项 (e.g., Compute Engine, Google Kubernetes Engine, App Engine, Cloud Run, Cloud Functions)</li>
+<li>适当使用preemptible VMs和自定义机器类型</li>
+</ul>
+</li>
+<li>规划和配置数据存储选项<br> Considerations include:<ul>
+<li>产品选择 (e.g., Cloud SQL, BigQuery, Cloud Spanner, Cloud Bigtable)</li>
+<li>选择存储选项 (e.g., Standard, Nearline, Coldline, Archive)</li>
+</ul>
+</li>
+<li>规划和配置网络资源<br> Tasks include:<ul>
+<li>区分负载均衡选项</li>
+<li>识别网络中的资源位置以提高可用性</li>
+<li>配置云DNS  </li>
+</ul>
+</li>
+</ol>
+<h3 id="部署和实施云解决方案"><a href="#部署和实施云解决方案" class="headerlink" title="部署和实施云解决方案"></a>部署和实施云解决方案</h3><ol>
+<li>部署和实施Compute Engine资源<br> Tasks include:<ul>
+<li>使用Cloud Console和Cloud SDK(gcloud)启动计算实例 (e.g., assign disks, availability policy, SSH keys)</li>
+<li>使用实例模板创建自动缩放的托管实例组</li>
+<li>为实例生成/上传自定义SSH密钥</li>
+<li>配置VM以进行Stackdriver监视和记录</li>
+<li>评估计算配额并请求增加</li>
+<li>安装Stackdriver Agent进行监视和日志记录</li>
+</ul>
+</li>
+<li>部署和实施Google Kubernetes Engine资源<br> Tasks include:<ul>
+<li>部署Google Kubernetes Engine集群</li>
+<li>使用pods将容器应用程序部署到Google Kubernetes Engine</li>
+<li>配置Google Kubernetes Engine应用程序监视和日志记录</li>
+</ul>
+</li>
+<li>部署和实施App Engine，Cloud Run和Cloud Functions资源<br> Tasks include, where applicable:<ul>
+<li>部署应用程序，更新扩展配置，版本和流量分割</li>
+<li>部署接收Google Cloud事件的应用程序 (e.g., Cloud Pub/Sub events, Cloud Storage object change notification events)</li>
+</ul>
+</li>
+<li>部署和实施数据解决方案<br> Tasks include:<ul>
+<li>使用产品初始化数据系统 (e.g., Cloud SQL, Cloud Datastore, BigQuery, Cloud Spanner, Cloud Pub/Sub, Cloud Bigtable, Cloud Dataproc, Cloud Dataflow, Cloud Storage)</li>
+<li>Loading data (e.g., command line upload, API transfer, import/export, load data from Cloud Storage, streaming data to Cloud Pub/Sub)</li>
+</ul>
+</li>
+<li>部署和实施网络资源<br> Tasks include:<ul>
+<li>使用子网创建VPC (e.g., custom-mode VPC, shared VPC)</li>
+<li>使用自定义网络配置启动Compute Engine实例 (e.g., internal-only IP address, Google private access, static external and private IP address, network tags)</li>
+<li>为VPC创建入口和出口防火墙规则 (e.g., IP subnets, tags, service accounts)</li>
+<li>使用Cloud VPN在Google VPC和外部网络之间创建VPN</li>
+<li>使用负载均衡器将应用程序网络流量分配给应用程序 (e.g., Global HTTP(S) load balancer, Global SSL Proxy load balancer, Global TCP Proxy load balancer, regional network load balancer, regional internal load balancer)</li>
+</ul>
+</li>
+<li>使用云市场部署解决方案<br> Tasks include:<ul>
+<li>浏览Cloud Marketplace目录并查看解决方案详细信息</li>
+<li>部署Cloud Marketplace解决方案</li>
+</ul>
+</li>
+<li>使用Cloud Deployment Manager部署应用程序基础架构<br> Tasks include:<ul>
+<li>开发Deployment Manager模板</li>
+<li>启动Deployment Manager模板  </li>
+</ul>
+</li>
+</ol>
+<h3 id="确保云解决方案的成功运行"><a href="#确保云解决方案的成功运行" class="headerlink" title="确保云解决方案的成功运行"></a>确保云解决方案的成功运行</h3><ol>
+<li>管理Compute Engine资源<br> Tasks include:<ul>
+<li>管理单个VM实例 (e.g., start, stop, edit configuration, or delete an instance)</li>
+<li>SSH/RDP连接到实例</li>
+<li>将GPU附加到新实例并安装CUDA库</li>
+<li>查看当前正在运行的VM清单 (instance IDs, details)</li>
+<li>使用快照 (e.g., create a snapshot from a VM, view snapshots, delete a snapshot)</li>
+<li>使用镜像 (e.g., create an image from a VM or a snapshot, view images, delete an image)</li>
+<li>使用实例组 (e.g., set autoscaling parameters, assign instance template, create an instance template, remove instance group)</li>
+<li>使用管理接口 (e.g., Cloud Console, Cloud Shell, GCloud SDK)</li>
+</ul>
+</li>
+<li>管理Google Kubernetes Engine资源<br> Tasks include:<ul>
+<li>查看当前运行的集群清单 (nodes, pods, services)</li>
+<li>浏览容器镜像存储库并查看容器镜像详细信息</li>
+<li>使用节点池 (e.g., add, edit, or remove a node pool)</li>
+<li>使用pods (e.g., add, edit, or remove pods)</li>
+<li>使用服务 (e.g., add, edit, or remove a service)</li>
+<li>使用有状态的应用程序 (e.g. persistent volumes, stateful sets)</li>
+<li>使用管理接口 (e.g., Cloud Console, Cloud Shell, Cloud SDK)</li>
+</ul>
+</li>
+<li>管理App Engine和Cloud Run资源<br> Tasks include:<ul>
+<li>调整应用程序流量分割参数</li>
+<li>设置自动缩放实例的缩放参数</li>
+<li>使用管理接口 (e.g., Cloud Console, Cloud Shell, Cloud SDK)</li>
+</ul>
+</li>
+<li>管理存储和数据库解决方案<br> Tasks include:<ul>
+<li>在Cloud Storage存储桶之间移动对象</li>
+<li>在存储类别之间转换Cloud Storage存储桶</li>
+<li>设置Cloud Storage存储桶的对象生命周期管理策略</li>
+<li>执行查询从数据实例中检索数据 (e.g., Cloud SQL, BigQuery, Cloud Spanner, Cloud Datastore, Cloud Bigtable)</li>
+<li>估算BigQuery查询的费用</li>
+<li>备份和还原数据实例 (e.g., Cloud SQL, Cloud Datastore)</li>
+<li>在Cloud Dataproc，Cloud Dataflow或BigQuery中查看作业状态</li>
+<li>使用管理接口 (e.g., Cloud Console, Cloud Shell, Cloud SDK)</li>
+</ul>
+</li>
+<li>管理网络资源<br> Tasks include:<ul>
+<li>将子网添加到现有VPC</li>
+<li>扩展子网以拥有更多IP地址</li>
+<li>保留静态外部或内部IP地址</li>
+<li>使用管理接口 (e.g., Cloud Console, Cloud Shell, Cloud SDK)</li>
+</ul>
+</li>
+<li>监视和日志记录<br> Tasks include:<ul>
+<li>根据资源指标创建Stackdriver警报</li>
+<li>创建Stackdriver自定义指标</li>
+<li>配置日志接收器并将日志导出到外部系统 (e.g., on-premises or BigQuery)</li>
+<li>在Stackdriver中查看和过滤日志</li>
+<li>在Stackdriver中查看特定的日志消息的详细信息</li>
+<li>使用云诊断来分析应用程序问题 (e.g., viewing Cloud Trace data, using Cloud Debug to view an application point-in-time)</li>
+<li>查看Google Cloud Platform状态</li>
+<li>使用管理接口 (e.g., Cloud Console, Cloud Shell, Cloud SDK)  </li>
+</ul>
+</li>
+</ol>
+<h3 id="配置访问和安全性"><a href="#配置访问和安全性" class="headerlink" title="配置访问和安全性"></a>配置访问和安全性</h3><ol>
+<li>管理身份和访问管理(IAM)<br> Tasks include:<ul>
+<li>查看IAM角色分配</li>
+<li>将IAM角色分配给帐户或Google组</li>
+<li>定义自定义IAM角色</li>
+</ul>
+</li>
+<li>管理服务帐户<br> Tasks include:<ul>
+<li>以有限的权限管理服务帐户</li>
+<li>为VM实例分配服务帐号</li>
+<li>授予对另一个项目中的服务帐户的访问权限</li>
+</ul>
+</li>
+<li>查看项目和托管服务的审核日志</li>
+</ol><div id="paginator"></div></div><div id="post-footer"><hr><a href="/2021/01/20/python_flask/">← Prev python flask</a><span style="color: #fe2"> | </span><a href="/2021/01/19/elasticsearch_search/">Elasticsearch query Next →</a><hr></div><div id="bottom-btn"><a id="to-index" href="#post-index" title="index">≡</a><a id="to-top" href="#post-title" title="to top">∧</a></div><div id="Valine"></div><script>new Valine({
+ el: '#Valine'
+ , appId: ''
+ , appKey: ''
+ , placeholder: '此条评论委托企鹅物流发送'
+})</script></div></article><aside><div id="about"><a href="/" id="logo"><img src="https://ak.hypergryph.com/assets/index/images/ak/pc/faction/1.png" alt="Logo"></a><h1 id="Dr"><a href="/"> Dr.miku</a></h1><section id="total"><a id="total-archives" href="/archives"><span class="total-title">Archives Total:</span><span class="total-number">19</span></a><div id="total-tags"><span class="total-title">Tags:</span><span class="total-number">8</span></div><div id="total-categories"><span class="total-title">Categories:</span><span class="total-number">7</span></div></section></div><div id="aside-block"><h1>INDEX</h1><div id="post-index"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Associate-Cloud-Engineer"><span class="toc-number">1.</span> <span class="toc-text">Associate Cloud Engineer</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Setting-up-a-cloud-solution-environment"><span class="toc-number">1.1.</span> <span class="toc-text">Setting up a cloud solution environment</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Planning-and-configuring-a-cloud-solution"><span class="toc-number">1.2.</span> <span class="toc-text">Planning and configuring a cloud solution</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploying-and-implementing-a-cloud-solution"><span class="toc-number">1.3.</span> <span class="toc-text">Deploying and implementing a cloud solution</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ensuring-successful-operation-of-a-cloud-solution"><span class="toc-number">1.4.</span> <span class="toc-text">Ensuring successful operation of a cloud solution</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Configuring-access-and-security"><span class="toc-number">1.5.</span> <span class="toc-text">Configuring access and security</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%AD%E6%96%87%E7%89%88%E8%A7%81%E8%BF%99%E9%87%8C"><span class="toc-number">2.</span> <span class="toc-text">中文版见这里</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E4%BA%91%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E7%8E%AF%E5%A2%83"><span class="toc-number">2.1.</span> <span class="toc-text">设置云解决方案环境</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%84%E5%88%92%E5%92%8C%E9%85%8D%E7%BD%AE%E4%BA%91%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="toc-number">2.2.</span> <span class="toc-text">规划和配置云解决方案</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%83%A8%E7%BD%B2%E5%92%8C%E5%AE%9E%E6%96%BD%E4%BA%91%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="toc-number">2.3.</span> <span class="toc-text">部署和实施云解决方案</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A1%AE%E4%BF%9D%E4%BA%91%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E7%9A%84%E6%88%90%E5%8A%9F%E8%BF%90%E8%A1%8C"><span class="toc-number">2.4.</span> <span class="toc-text">确保云解决方案的成功运行</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E8%AE%BF%E9%97%AE%E5%92%8C%E5%AE%89%E5%85%A8%E6%80%A7"><span class="toc-number">2.5.</span> <span class="toc-text">配置访问和安全性</span></a></li></ol></li></ol></div></div><footer><nobr><span class="text-title">TIME</span><span class="text-content">2077 to 2077</span></nobr><wbr><nobr><span class="text-title">JK</span><span class="text-content">miku</span></nobr><wbr><wbr><nobr>published with&nbsp;<a target="_blank" rel="noopener" href="http://hexo.io">Hexo&nbsp;</a></nobr><wbr><nobr>Theme&nbsp;<a target="_blank" rel="noopener" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknight&nbsp;</a></nobr><wbr><nobr>by&nbsp;<a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></nobr></footer></aside></main><canvas id="canvas-dust"></canvas><script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script><script src="/js/arknights.js"></script></body></html>
